@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:#004643 ;
+}
+
+.screen {
+    border: solid 1px black;
+    background-color: #f9bc60 ;
+    width: 100px ;
+    height: 50px ;
+}
+
+.main-container {
+    align-items: center;
+    background-color: #abd1c6;
+    width: 200px;
+    border: 2px solid #001e1d;
+}
+
+.row > .col {
+    background-color: aliceblue;
+    border: 1px solid #001e1d;
+}
+
+.row :hover {
+    background-color: #004643;
+    cursor: pointer;
+}
+
+.btnn {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2px;
+    position: relative;
+    right: 75px;
+    bottom: 100px;
+    width: 20px;
+    height: 15px;
+}
+
+.btn-minus {
+    width: 36px;
+}
+
+.btnn2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2px;
+    position: relative;
+    left: 78px;
+    bottom: 115px;
+    width: 20px;
+    height: 15px;
+}
