@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    background-color: #8bd3dd !important;
+}
+
+.container{
+padding-top: 20px;
+display: flex;
+align-items: center;
+flex-direction: column;
+gap: 15px;
+}
+h1 {
+    font-size: 15px !important;
+}
+#brb-img{
+    width: 80px;
+    height: 70px;
+    border: solid 1px black;
+    border-radius:10px;
+}
+
+.slidecontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#slider-value{
+    text-align: center;
+}
+
+.btn-qoute{
+    background-color: #f582ae;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.btn-qoute:hover {
+    color: #f582ae;
+    background-color: black;
+    border-color: #f582ae;
+}
+.quoteMap {
+    background-color: #f3d2c1;
+    margin-top: 5px;
+    border: solid black 1px;
+    border-radius: 5px;
+}
+
+.quotes {
+    font-size: 12px;
+    padding-left: 5px;
+    color: #172c66;
+}
+span {
+    font-size: 10px;
+    margin-left: 5px;
+    color: #172c66;
+    background-color: #f582ae;
+    border: 1px solid black;
+    border-radius: 2px;    
+}
